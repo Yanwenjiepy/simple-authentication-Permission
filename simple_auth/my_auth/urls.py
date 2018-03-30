@@ -5,10 +5,13 @@ from my_auth.views import (
     RegisterView, VerifyEmailView, LoginView, LogoutView, UserDetailView,
     PasswordResetView, PasswordResetConfirmView, PasswordChangeView
 )
+from django.views.generic import TemplateView
 
-url_patterns = [
+urlpatterns = [
     url(r'^register/$', RegisterView.as_view(), name='register'),
     url(r'^register/verify-email/$', VerifyEmailView.as_view(), name='verify_email'),
+    url(r'^account-confirm-email/(?P<key>[-:\w]+)/$', TemplateView.as_view(),
+        name='account_confirm_email'),
     url(r'^login/$', LoginView.as_view(), name='login'),
     url(r'^logout/$', LogoutView.as_view(), name='logout'),
     url(r'^user/$', UserDetailView.as_view(), name='user_details'),

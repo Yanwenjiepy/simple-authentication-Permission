@@ -18,7 +18,7 @@ from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 
-from allauth.account.app_settings import app_settings
+from allauth.account import app_settings
 from allauth.account.utils import complete_signup
 from allauth.account.views import ConfirmEmailView
 

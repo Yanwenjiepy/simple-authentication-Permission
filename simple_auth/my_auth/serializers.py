@@ -10,7 +10,7 @@ from django.utils.encoding import force_text
 from rest_framework.authtoken.models import Token
 from rest_framework import serializers, exceptions
 
-from allauth.account.app_settings import app_settings
+from allauth.account import app_settings
 from allauth.utils import get_username_max_length, email_address_exists
 from allauth.account.adapter import get_adapter
 from allauth.account.utils import setup_user_email
