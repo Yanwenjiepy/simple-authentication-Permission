@@ -60,13 +60,17 @@ PyMySQL==0.8.0
 
   - return  Token's key
 
+  - example：
+
+  - ![login-test](./example/login-test.png)
+
     ​
 
 - /logout/(POST)
 
   ​
 
-- /user/(GET、PUT\、PATCH)
+- /user/(GET、PUT、PATCH)
 
   ​
 
@@ -79,6 +83,10 @@ PyMySQL==0.8.0
     ​
 
   - return  pk、username、email、first_name、last_name
+
+  - example:
+
+  - ![user-get-test](./example/user-get-test.png)
 
     ​
 
