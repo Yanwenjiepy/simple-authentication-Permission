@@ -17,7 +17,7 @@ Pygments==2.2.0
 PyMySQL==0.8.0
 python3-openid==3.1.0
 pytz==2017.3
-requests==2.20.0
+requests==2.21.0
 requests-oauthlib==0.8.0
 uritemplate==3.0.0
-urllib3==1.22
+urllib3==1.24。1
