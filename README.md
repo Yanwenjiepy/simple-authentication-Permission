@@ -12,7 +12,7 @@ simple-authentication 是以`django-allauth`与`Django`的`auth`模块为基础�
 
 Python3.5
 
-Django==1.11.15
+Django>=1.11.18
 
 django-allauth==0.35.0
 
