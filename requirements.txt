@@ -20,4 +20,4 @@ pytz==2017.3
 requests==2.21.0
 requests-oauthlib==0.8.0
 uritemplate==3.0.0
-urllib3==1.24。1
+urllib3>=1.24.1
