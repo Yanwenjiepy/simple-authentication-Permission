@@ -3,6 +3,7 @@
 ## simple-authentication 
 
 ------
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 simple-authentication 是以`django-allauth`与`Django`的`auth`模块为基础编写的一组包含 注册、登录、登出、密码重置、用户信息查询与更新 等功能的REST API。
 
