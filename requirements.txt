@@ -9,11 +9,11 @@ django-filter==1.1.0
 djangorestframework>=3.9.1
 idna==2.6
 itypes==1.1.0
-Jinja2==2.10.1
+jinja2>=2.11.3
 Markdown==2.6.10
 MarkupSafe==1.0
 oauthlib==2.0.6
-Pygments==2.2.0
+Pygments>=2.7.4
 PyMySQL==0.8.0
 python3-openid==3.1.0
 pytz==2017.3
